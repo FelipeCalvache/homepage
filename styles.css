@@ -290,13 +290,13 @@ body {
 }
 
 .timeline-item {
-  border: solid black;
   width: 100px;
   height: 3px;
   border: solid var(--icon-color);
 }
+
 .timeline-item-circle {
-  border: solid VAR(--text-decoration-color);
+  border: solid var(--text-decoration-color);
   border-radius: 50%;
   height: 55px;
   width: 55px;
@@ -323,6 +323,7 @@ span {
   border-bottom: 20px solid transparent;
   border-left: 20px solid var(--text-decoration-color);
 }
+
 .arrow-container {
   display: flex;
   align-items: center;
